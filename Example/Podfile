@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSRoundedImages_Example' do
+  pod 'JSRoundedImages', :path => '../'
+
+  target 'JSRoundedImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
