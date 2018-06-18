@@ -1,0 +1,22 @@
+{
+  "name": "JSRoundedImages",
+  "version": "0.1.0",
+  "summary": "A short description of JSRoundedImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GMRemie/JSRoundedImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GMRemie": "gmremcorat@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/GMRemie/JSRoundedImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSRoundedImages/Classes/**/*"
+}

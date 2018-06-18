@@ -1,0 +1,6 @@
+framework module JSRoundedImages {
+  umbrella header "JSRoundedImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

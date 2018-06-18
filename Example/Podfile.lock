@@ -1,0 +1,16 @@
+PODS:
+  - JSRoundedImages (0.1.0)
+
+DEPENDENCIES:
+  - JSRoundedImages (from `../`)
+
+EXTERNAL SOURCES:
+  JSRoundedImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSRoundedImages: ba7a881c1f682faf5a76cfd95a398e405a295d67
+
+PODFILE CHECKSUM: ae833430601f4bb1ed1ff4190a516b372217463f
+
+COCOAPODS: 1.5.3
