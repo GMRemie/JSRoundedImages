@@ -8,17 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+// import the pod
+import JSRoundedImages
 
+class ViewController: UIViewController {
+    // declare an image view
+    @IBOutlet weak var testImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // call roundViewWidth
+        testImageView.roundViewWith(borderColor: UIColor.white, borderWidth: 5.0)
+        
     }
+    
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
 
 }
 

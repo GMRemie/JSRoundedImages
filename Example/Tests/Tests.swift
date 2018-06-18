@@ -13,16 +13,12 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func test_roundImage() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let testView = UIImageView()
+        testView.roundViewWith(borderColor: UIColor.white, borderWidth: 5.0)
+        XCTAssert(testView.layer.borderWidth == 5.0)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
+
     
 }
